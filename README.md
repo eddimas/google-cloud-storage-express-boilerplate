@@ -8,10 +8,10 @@ Grant create objects privileges
 Export json credential files
 
 Set following env.variables:
-
-{{export GCLOUD_PROJECT_ID=<yourProjectID>}}
-{{export GCLOUD_KEY_FILE=<CredentialFile.json>}}
-{{export GCLOUD_STORAGE_BUCKET=<bucketName>}}
+ 
+{{ export GCLOUD_PROJECT_ID=<yourProjectID> }}
+{{ export GCLOUD_KEY_FILE=<CredentialFile.json> }}
+{{ export GCLOUD_STORAGE_BUCKET=<bucketName> }}
 
 npm install
 npm start
@@ -38,3 +38,4 @@ GET / 200 5.226 ms - 409
   mv: [Function: mv] }
 POST /upload 200 5.989 ms - 67
 ```
+ 
