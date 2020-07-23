@@ -9,12 +9,12 @@ Export json credential files
 
 Set following env.variables:
  
-{{ export GCLOUD_PROJECT_ID=<yourProjectID> }}
-{{ export GCLOUD_KEY_FILE=<CredentialFile.json> }}
-{{ export GCLOUD_STORAGE_BUCKET=<bucketName> }}
+` export GCLOUD_PROJECT_ID=<yourProjectID> `
+` export GCLOUD_KEY_FILE=<CredentialFile.json> `
+` export GCLOUD_STORAGE_BUCKET=<bucketName> `
 
-npm install
-npm start
+`npm install`
+`npm start`
 
 Sample output
 ```bash
